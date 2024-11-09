@@ -31,6 +31,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.huawei.agconnect'
 android {
+    namespace "com.ara.flutter_hms_scan_kit"
+
     compileSdkVersion 33
 
     sourceSets {
